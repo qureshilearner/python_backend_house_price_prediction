@@ -1,7 +1,14 @@
 # backend_house_price_prediction_python
 backend of house price prediction on python
 
-How to deploy?
+## dependecies to run:
+pip install fastapi uvicorn python-multipart xgboost lightgbm scikit-learn pandas numpy
+uvicorn app:app --reload --port 8000
+
+### How to run on local machine?
+uvicorn app:app --reload --port 8000
+
+### How to deploy?
 1. Push backend to a new GitHub repo
 
 2. Create requirements.txt:
